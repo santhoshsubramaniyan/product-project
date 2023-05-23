@@ -1,0 +1,134 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 40rem;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  table.pricing-table {
+    font-size: 14px;
+  }
+
+  table.pricing-table th,
+  table.pricing-table td {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  table.pricing-table th {
+    font-weight: bold;
+  }
+}
+table.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.pricing-table th,
+table.pricing-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  table.pricing-table {
+    font-size: 14px;
+  }
+
+  table.pricing-table th,
+  table.pricing-table td {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  table.pricing-table th {
+    font-weight: bold;
+  }
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.product {
+  width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 18px;
+}
+.accordion {
+  width: 100%;
+}
+
+.accordion-section {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-section-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-section-content {
+  display: none;
+  padding: 10px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-menu li a {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-menu li a:hover {
+  background-color: #ddd;
+}
